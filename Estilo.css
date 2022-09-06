@@ -1,0 +1,30 @@
+body{
+    background: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: minmax(20px,auto);
+
+}
+
+.table div{
+    background: #BDC1C5;
+    padding: 1em;
+}
+
+.table div:hover{
+    border: 1px solid #47494B;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 5px;
+    align-items: center; 
+}
+
